@@ -27,8 +27,8 @@ export interface ChatResponse {
 // Sensible default models per provider. Edit these freely.
 export const DEFAULT_MODELS: Record<Provider, string> = {
   openai: "gpt-4o-mini",
-  anthropic: "claude-3-5-haiku-latest",
-  gemini: "gemini-1.5-flash",
+  anthropic: "claude-haiku-4-5",
+  gemini: "gemini-2.5-flash",
 };
 
 export const PROVIDER_LABELS: Record<Provider, string> = {

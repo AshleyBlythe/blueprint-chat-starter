@@ -166,11 +166,11 @@ blueprint-chat-starter/
 
 Pick a provider in the UI and edit the model name freely. Defaults:
 
-| Provider  | Default model               |
-| --------- | --------------------------- |
-| OpenAI    | `gpt-4o-mini`               |
-| Anthropic | `claude-3-5-haiku-latest`   |
-| Gemini    | `gemini-1.5-flash`          |
+| Provider  | Default model        |
+| --------- | -------------------- |
+| OpenAI    | `gpt-4o-mini`        |
+| Anthropic | `claude-haiku-4-5`   |
+| Gemini    | `gemini-2.5-flash`   |
 
 Defaults live in `src/lib/types.ts` (`DEFAULT_MODELS`) — change them there.
 

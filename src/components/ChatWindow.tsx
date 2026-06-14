@@ -78,7 +78,7 @@ export default function ChatWindow({
           <button
             className="ghost"
             onClick={onClear}
-            disabled={messages.length === 0}
+            disabled={loading || messages.length === 0}
             title="Clear conversation history"
           >
             Clear chat
