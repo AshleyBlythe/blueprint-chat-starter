@@ -19,6 +19,7 @@ export default function ApiKeyBox({
       <span className="field-label">API key (BYOK)</span>
       <input
         type="password"
+        className="mono"
         value={apiKey}
         spellCheck={false}
         autoComplete="off"

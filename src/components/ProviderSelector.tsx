@@ -37,6 +37,7 @@ export default function ProviderSelector({
         <span className="field-label">Model</span>
         <input
           type="text"
+          className="mono"
           value={model}
           spellCheck={false}
           onChange={(e) => onModelChange(e.target.value)}
