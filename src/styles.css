@@ -10,9 +10,10 @@
   --border: #ddd6ce;
   --text: #111111;
   --text-muted: #5f5a55;
-  --accent: #c8102e;
-  --accent-hover: #a50d26;
+  --accent: #1e4e8c;
+  --accent-hover: #163b63;
   --warn: #9a6a00;
+  --danger: #b3261e;
   --radius: 8px;
 
   --font-ui: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
@@ -145,7 +146,7 @@ select:focus,
 textarea:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 2px rgba(200, 16, 46, 0.15);
+  box-shadow: 0 0 0 2px rgba(30, 78, 140, 0.18);
 }
 
 .system-prompt {
@@ -251,9 +252,9 @@ textarea:focus {
 }
 
 .error-banner {
-  background: rgba(200, 16, 46, 0.07);
-  border: 1px solid var(--accent);
-  color: var(--accent-hover);
+  background: rgba(179, 38, 30, 0.07);
+  border: 1px solid var(--danger);
+  color: var(--danger);
   padding: 11px 13px;
   border-radius: var(--radius);
   font-size: 13.5px;
