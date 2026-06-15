@@ -1,26 +1,50 @@
 # BluePrint Chat Starter
 
-A bare-minimum AI chat app you can download, fork, run locally, import into
-Replit, or hand to Lovable / Cursor / Claude Code to customize.
+A simple AI chat app you can run locally, read end to end, and customize. Built
+by **FLARE Collective / The BluePrint** as a learning starter kit — not a
+production product.
 
-Built by **FLARE Collective / The BluePrint** as a learning starter kit.
+![BluePrint Chat Starter screenshot](docs/screenshot.png)
+
+**The first 10 seconds:**
+
+- **What it is** — a minimal Vite + React + TypeScript chat UI with a tiny
+  Node/Express proxy for OpenAI, Anthropic, and Gemini.
+- **What it is not** — not a production app, not a companion platform, not
+  Ignis / AIB / Cendri. No auth, database, payments, long-term memory, or
+  companion identity.
+- **How to run it** — `npm install`, then `npm run dev`, then open
+  <http://localhost:5173> and paste your own API key.
+- **How to customize it** — change the colors, assistant name, and system
+  prompt (see [Customization ideas](#customization-ideas)), or hand the repo to
+  an AI coding tool with the prompt below.
+- **How to check it** — run `python -m trustlayer scan .` before you share or
+  deploy.
 
 ---
 
-## What this is
+## Who this is for
 
-- A **simple, readable** AI chat app: Vite + React + TypeScript on the front
-  end, a tiny Node/Express proxy on the back end.
-- A starting point you are meant to **read, fork, and customize**.
-- **Bring Your Own Key (BYOK):** you paste your own provider API key in the UI
-  for local/personal testing.
+BluePrint Chat Starter is for people who want to learn how AI chat apps work,
+customize a simple starter, or build a safe first prototype without starting
+from a blank page.
 
-## What this is *not*
+## What you can do with it
 
-- ❌ Not a production companion platform.
-- ❌ Not Ignis, and not the AIB / continuity architecture.
-- ❌ No auth, no database, no payments, no long-term memory, no companion
-  identity system, no Cendri code.
+- Run a simple local AI chat app.
+- Try OpenAI, Anthropic, or Gemini with your own API key.
+- Edit the system prompt and see how behavior changes.
+- Customize the UI, assistant name, colors, and starter flow.
+- Use it as a base for a personal or educational prototype.
+- Run TrustLayer before sharing or deploying.
+
+## Customize with an AI coding tool
+
+Paste this into Lovable, Cursor, Claude Code, or Codex:
+
+> Read this repo first. Keep the app simple. Customize the visual design and
+> assistant behavior, but do not add auth, payments, database, long-term
+> memory, companion identity, or production deployment until I ask.
 
 It is intentionally small. Don't overbuild it — build *on* it.
 
